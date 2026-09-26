@@ -722,7 +722,7 @@ copies or substantial portions of the Software.
 ---
 
 <p align="center">
-  <b>Built with ❤️ by <a href="https://github.com/piyushkr21">Piyush Kumar</a></b>
+  <b>Built with ❤️ by <a href="https://github.com/piyushkr21">Ramu Dhanakonda</a></b>
 </p>
 
 <p align="center">
