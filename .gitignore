@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment Variables
+.env
+*.pem
+*.key
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - 2-Tier Application</title>
+    <style>
+        body {
+            font-family: serif, 'Times New Roman', Times;
+            margin: 20px;
+        }
+        h2 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        input[type="text"], input[type="password"] {
+            display: block;
+            margin-bottom: 15px;
+            padding: 2px 4px;
+            width: 150px;
+            font-size: 13px;
+            border: 1px solid #767676;
+        }
+        button {
+            padding: 2px 6px;
+            font-size: 13px;
+            cursor: pointer;
+            border: 1px solid #767676;
+            background-color: #efefef;
+        }
+        .message {
+            margin-top: 15px;
+            font-family: serif, 'Times New Roman', Times;
+            font-size: 15px;
+        }
+        .success {
+            color: #000;
+        }
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h2>Login</h2>
+    <form action="/login" method="POST">
+        <input type="text" name="username" placeholder="Username" required autocomplete="off">
+        <input type="password" name="password" placeholder="Password" required>
+        <button type="submit">Login</button>
+    </form>
+
+    {{MESSAGE_PLACEHOLDER}}
+</body>
+</html>
